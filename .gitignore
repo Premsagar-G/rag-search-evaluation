@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.DS_Store
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Local datasets and financial data
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+
+# Local data and experiment outputs
+yf_data/
+tmp/
